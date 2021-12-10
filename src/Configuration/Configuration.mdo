@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b4f232e-c298-4d9a-99e1-49d87df94dfe">
+  <name>ТелеграмБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм бот</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="14a4f4e0-121a-4301-b2da-7ec1a3441cca"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="60f16ee5-0aa6-4471-8710-262e151d9ba6"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7ac2b408-a8b2-4207-9fe9-5516da6b5ec7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="1287b995-ee68-40f1-af7d-9452ef26c128"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="37957de0-456c-4210-b280-860b54665c2f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a3b25c71-b43e-4ab8-8501-72099b5316fd"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="379ff2b2-ac27-4818-af70-2694c049c14b"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <languages uuid="e72f00d3-5e24-4260-bdb6-badd42f4826d">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Подсистема</subsystems>
+  <commonModules>CommonModule.КоннекторHTTP</commonModules>
+  <constants>Constant.Токен</constants>
+  <constants>Constant.НомерПоследнегоОбновления</constants>
+  <dataProcessors>DataProcessor.РаботаСБотом</dataProcessors>
+</mdclass:Configuration>
