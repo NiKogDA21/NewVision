@@ -10,4 +10,5 @@
   <content>Constant.Токен</content>
   <content>Constant.НомерПоследнегоОбновления</content>
   <content>DataProcessor.РаботаСБотом</content>
+  <content>Catalog.ИсторияСообщений</content>
 </mdclass:Subsystem>

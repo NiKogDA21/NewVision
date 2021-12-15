@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a46f3b27-90db-402a-98bf-1a2a473febe2">
+  <producedTypes>
+    <objectType typeId="5d706bf5-a146-4ad3-8455-f1d90492d317" valueTypeId="11eddc26-6faf-4d8c-8b38-b229cbd228f9"/>
+    <refType typeId="1ab12e10-a25b-4be7-be87-0f5b40c86032" valueTypeId="9eddd281-8c55-48af-8038-0e7d00cc98cd"/>
+    <selectionType typeId="d7abf4bd-caa4-4346-b4b6-68849207c9b0" valueTypeId="16cffa4d-7c7b-4290-8e30-70b4c97cb5b0"/>
+    <listType typeId="f0bf720b-2c11-4d4a-90fc-0f46b4690a21" valueTypeId="6ad23a08-73c7-49ca-8488-00f95261a653"/>
+    <managerType typeId="2817fbff-b242-4cce-9dda-01ac6036abd8" valueTypeId="7075f910-550b-41f6-9422-bcbf4d5ebb4a"/>
+  </producedTypes>
+  <name>ИсторияСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>История сообщений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсторияСообщений.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ИсторияСообщений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e2144f53-b7b3-4cda-81e7-1f3946f5da42">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

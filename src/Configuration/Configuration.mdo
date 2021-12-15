@@ -43,5 +43,6 @@
   <commonModules>CommonModule.КоннекторHTTP</commonModules>
   <constants>Constant.Токен</constants>
   <constants>Constant.НомерПоследнегоОбновления</constants>
+  <catalogs>Catalog.ИсторияСообщений</catalogs>
   <dataProcessors>DataProcessor.РаботаСБотом</dataProcessors>
 </mdclass:Configuration>
